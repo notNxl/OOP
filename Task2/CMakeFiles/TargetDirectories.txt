@@ -1,0 +1,4 @@
+C:/Users/artem/Documents/ООП/Task2/CMakeFiles/main.dir
+C:/Users/artem/Documents/ООП/Task2/CMakeFiles/ALL_BUILD.dir
+C:/Users/artem/Documents/ООП/Task2/CMakeFiles/ZERO_CHECK.dir
+C:/Users/artem/Documents/ООП/Task2/functions/CMakeFiles/functions.dir
