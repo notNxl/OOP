@@ -1,0 +1,2 @@
+/usr/bin/ar qc libRingBuffer.a CMakeFiles/RingBuffer.dir/RingBuffer.cpp.o
+/usr/bin/ranlib libRingBuffer.a
