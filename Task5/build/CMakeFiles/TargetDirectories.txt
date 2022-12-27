@@ -1,0 +1,8 @@
+/home/artem/Task5/build/CMakeFiles/main.dir
+/home/artem/Task5/build/CMakeFiles/edit_cache.dir
+/home/artem/Task5/build/CMakeFiles/rebuild_cache.dir
+/home/artem/Task5/build/include/CMakeFiles/edit_cache.dir
+/home/artem/Task5/build/include/CMakeFiles/rebuild_cache.dir
+/home/artem/Task5/build/src/CMakeFiles/functions.dir
+/home/artem/Task5/build/src/CMakeFiles/edit_cache.dir
+/home/artem/Task5/build/src/CMakeFiles/rebuild_cache.dir

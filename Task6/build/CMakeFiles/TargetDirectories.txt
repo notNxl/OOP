@@ -1,0 +1,10 @@
+/home/artem/Task6/build/CMakeFiles/main.dir
+/home/artem/Task6/build/CMakeFiles/edit_cache.dir
+/home/artem/Task6/build/CMakeFiles/rebuild_cache.dir
+/home/artem/Task6/build/include/CMakeFiles/edit_cache.dir
+/home/artem/Task6/build/include/CMakeFiles/rebuild_cache.dir
+/home/artem/Task6/build/src/CMakeFiles/operations.dir
+/home/artem/Task6/build/src/CMakeFiles/stack.dir
+/home/artem/Task6/build/src/CMakeFiles/RPN.dir
+/home/artem/Task6/build/src/CMakeFiles/edit_cache.dir
+/home/artem/Task6/build/src/CMakeFiles/rebuild_cache.dir
