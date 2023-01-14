@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/artem/Task2/src/Functions.cpp" "src/CMakeFiles/functions.dir/Functions.cpp.o" "gcc" "src/CMakeFiles/functions.dir/Functions.cpp.o.d"
+  "/home/artem/OOP/Task2/src/Functions.cpp" "src/CMakeFiles/functions.dir/Functions.cpp.o" "gcc" "src/CMakeFiles/functions.dir/Functions.cpp.o.d"
   )
 
 # Targets to which this target links.

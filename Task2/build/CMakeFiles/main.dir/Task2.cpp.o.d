@@ -1,4 +1,4 @@
-CMakeFiles/main.dir/Task2.cpp.o: /home/artem/Task2/Task2.cpp \
+CMakeFiles/main.dir/Task2.cpp.o: /home/artem/OOP/Task2/Task2.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/cstdio \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -125,4 +125,4 @@ CMakeFiles/main.dir/Task2.cpp.o: /home/artem/Task2/Task2.cpp \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc \
- /home/artem/Task2/src/../include/functions/Functions.h
+ /home/artem/OOP/Task2/src/../include/functions/Functions.h

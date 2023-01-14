@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/artem/Task2/src/../include
+CXX_INCLUDES = -I/home/artem/OOP/Task2/src/../include
 
 CXX_FLAGS = 
 

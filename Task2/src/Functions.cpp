@@ -21,21 +21,30 @@ std::string input(std::string s)
 
 std::string toUpper(std::string x)
 {
-	x = '#' + x;
 	int z = 0;
 	for (int i = 0; i < x.length(); i++)
 	{
-		if ((x[i + 1] != ' ') && (x[i] == ' '))
+		if ((x[i + 1] != ' ') && (x[i] == ' ') && (x[i+1] >= 97))
 		{
 			x[i + 1] -= 32;
 		}
-		if ((x[i] != ' ') && (x[i] >= 97) && (z == 0))
+		if ((i == 0) && (x[i] >= 97))
 		{
 			x[i] -= 32;
-			z++;
 		}
 	}
+	x = '#' + x;
 	return x;
+}
+std::string spaceDel(std::string s)
+{
+	std::string temp = "";
+	for (int i = 0; i < s.size(); i++)
+        {
+                if (s[i] != ' ')
+                        temp += s[i];
+        }
+	return temp;
 }
 
 void output(std::string s)
