@@ -1,6 +1,6 @@
-src/CMakeFiles/stack.dir/Stack.cpp.o: /home/artem/Task6/src/Stack.cpp \
+src/CMakeFiles/stack.dir/Stack.cpp.o: /home/artem/OOP/Task6/src/Stack.cpp \
  /usr/include/stdc-predef.h \
- /home/artem/Task6/src/../include/stack/Stack.h \
+ /home/artem/OOP/Task6/src/../include/stack/Stack.h \
  /usr/include/c++/11/ostream /usr/include/c++/11/ios \
  /usr/include/c++/11/iosfwd \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \

@@ -1,4 +1,4 @@
-# Install script for directory: /home/artem/Task6/src
+# Install script for directory: /home/artem/OOP/Task6/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/artem/Task6/src/Operations.cpp" "src/CMakeFiles/operations.dir/Operations.cpp.o" "gcc" "src/CMakeFiles/operations.dir/Operations.cpp.o.d"
+  "/home/artem/OOP/Task6/src/Operations.cpp" "src/CMakeFiles/operations.dir/Operations.cpp.o" "gcc" "src/CMakeFiles/operations.dir/Operations.cpp.o.d"
   )
 
 # Targets to which this target links.

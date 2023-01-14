@@ -1,4 +1,4 @@
-CMakeFiles/main.dir/Task6.cpp.o: /home/artem/Task6/Task6.cpp \
+CMakeFiles/main.dir/Task6.cpp.o: /home/artem/OOP/Task6/Task6.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -145,4 +145,4 @@ CMakeFiles/main.dir/Task6.cpp.o: /home/artem/Task6/Task6.cpp \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /home/artem/Task6/src/../include/RPN/RPN.h
+ /home/artem/OOP/Task6/src/../include/RPN/RPN.h

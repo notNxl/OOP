@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/tests.dir/tests.cpp.o -o tests  src/libRPN.a src/liboperations.a src/libstack.a lib/libgtest.a lib/libgtest_main.a lib/libgtest.a 
