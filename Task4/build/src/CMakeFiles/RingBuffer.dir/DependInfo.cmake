@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/artem/Task4/src/RingBuffer.cpp" "src/CMakeFiles/RingBuffer.dir/RingBuffer.cpp.o" "gcc" "src/CMakeFiles/RingBuffer.dir/RingBuffer.cpp.o.d"
+  "/home/artem/OOP/Task4/src/RingBuffer.cpp" "src/CMakeFiles/RingBuffer.dir/RingBuffer.cpp.o" "gcc" "src/CMakeFiles/RingBuffer.dir/RingBuffer.cpp.o.d"
   )
 
 # Targets to which this target links.

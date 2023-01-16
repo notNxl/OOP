@@ -1,4 +1,4 @@
-# Install script for directory: /home/artem/Task4/include
+# Install script for directory: /home/artem/OOP/Task4/include
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

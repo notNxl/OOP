@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/artem/Task4
+CMAKE_SOURCE_DIR = /home/artem/OOP/Task4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/artem/Task4/build
+CMAKE_BINARY_DIR = /home/artem/OOP/Task4/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/artem/Task4/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/artem/Task4/build/CMakeFiles /home/artem/Task4/build/src//CMakeFiles/progress.marks
-	cd /home/artem/Task4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/artem/Task4/build/CMakeFiles 0
+	cd /home/artem/OOP/Task4/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/artem/OOP/Task4/build/CMakeFiles /home/artem/OOP/Task4/build/src//CMakeFiles/progress.marks
+	cd /home/artem/OOP/Task4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/artem/OOP/Task4/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/artem/Task4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
+	cd /home/artem/OOP/Task4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/artem/Task4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/artem/OOP/Task4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/artem/Task4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/artem/OOP/Task4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/artem/Task4/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/artem/OOP/Task4/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/RingBuffer.dir/rule:
-	cd /home/artem/Task4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/RingBuffer.dir/rule
+	cd /home/artem/OOP/Task4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/RingBuffer.dir/rule
 .PHONY : src/CMakeFiles/RingBuffer.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ RingBuffer: src/CMakeFiles/RingBuffer.dir/rule
 
 # fast build rule for target.
 RingBuffer/fast:
-	cd /home/artem/Task4/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/RingBuffer.dir/build.make src/CMakeFiles/RingBuffer.dir/build
+	cd /home/artem/OOP/Task4/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/RingBuffer.dir/build.make src/CMakeFiles/RingBuffer.dir/build
 .PHONY : RingBuffer/fast
 
 RingBuffer.o: RingBuffer.cpp.o
@@ -135,7 +135,7 @@ RingBuffer.o: RingBuffer.cpp.o
 
 # target to build an object file
 RingBuffer.cpp.o:
-	cd /home/artem/Task4/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/RingBuffer.dir/build.make src/CMakeFiles/RingBuffer.dir/RingBuffer.cpp.o
+	cd /home/artem/OOP/Task4/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/RingBuffer.dir/build.make src/CMakeFiles/RingBuffer.dir/RingBuffer.cpp.o
 .PHONY : RingBuffer.cpp.o
 
 RingBuffer.i: RingBuffer.cpp.i
@@ -143,7 +143,7 @@ RingBuffer.i: RingBuffer.cpp.i
 
 # target to preprocess a source file
 RingBuffer.cpp.i:
-	cd /home/artem/Task4/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/RingBuffer.dir/build.make src/CMakeFiles/RingBuffer.dir/RingBuffer.cpp.i
+	cd /home/artem/OOP/Task4/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/RingBuffer.dir/build.make src/CMakeFiles/RingBuffer.dir/RingBuffer.cpp.i
 .PHONY : RingBuffer.cpp.i
 
 RingBuffer.s: RingBuffer.cpp.s
@@ -151,7 +151,7 @@ RingBuffer.s: RingBuffer.cpp.s
 
 # target to generate assembly for a file
 RingBuffer.cpp.s:
-	cd /home/artem/Task4/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/RingBuffer.dir/build.make src/CMakeFiles/RingBuffer.dir/RingBuffer.cpp.s
+	cd /home/artem/OOP/Task4/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/RingBuffer.dir/build.make src/CMakeFiles/RingBuffer.dir/RingBuffer.cpp.s
 .PHONY : RingBuffer.cpp.s
 
 # Help Target
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/artem/Task4/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/artem/OOP/Task4/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

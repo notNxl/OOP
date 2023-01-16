@@ -1,8 +1,8 @@
-/home/artem/Task4/build/CMakeFiles/main.dir
-/home/artem/Task4/build/CMakeFiles/edit_cache.dir
-/home/artem/Task4/build/CMakeFiles/rebuild_cache.dir
-/home/artem/Task4/build/include/CMakeFiles/edit_cache.dir
-/home/artem/Task4/build/include/CMakeFiles/rebuild_cache.dir
-/home/artem/Task4/build/src/CMakeFiles/RingBuffer.dir
-/home/artem/Task4/build/src/CMakeFiles/edit_cache.dir
-/home/artem/Task4/build/src/CMakeFiles/rebuild_cache.dir
+/home/artem/OOP/Task4/build/CMakeFiles/main.dir
+/home/artem/OOP/Task4/build/CMakeFiles/edit_cache.dir
+/home/artem/OOP/Task4/build/CMakeFiles/rebuild_cache.dir
+/home/artem/OOP/Task4/build/include/CMakeFiles/edit_cache.dir
+/home/artem/OOP/Task4/build/include/CMakeFiles/rebuild_cache.dir
+/home/artem/OOP/Task4/build/src/CMakeFiles/RingBuffer.dir
+/home/artem/OOP/Task4/build/src/CMakeFiles/edit_cache.dir
+/home/artem/OOP/Task4/build/src/CMakeFiles/rebuild_cache.dir

@@ -1,6 +1,21 @@
 #include <iostream>
 #include "RingBuffer/RingBuffer.h"
 
+    struct Element
+    {
+        int data = NULL;
+        Element* next;
+    };
+    Element* head;
+    Element* tmp;
+
+    List::List()
+    {
+
+        head = NULL;
+        tmp = head;
+    };
+
     void List::init(int length)
     {
         head = new Element;
@@ -14,11 +29,11 @@
         current->next = head;
     };
 
-    void List::print1(std::ostream& os) {
+    void List::print(std::ostream& os) {
         Element* current = head;
         do
         {
-            if (current->data == -842150451)
+            if (current->data == NULL)
             {
                 os << "empty" << std::endl;
             }
