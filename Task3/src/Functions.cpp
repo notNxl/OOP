@@ -3,11 +3,7 @@
 #include <math.h>
 #include <iostream>
 
-char map[] = { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 
-                   'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd', 'e', 'f', 
-                   'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 
-                   'w', 'x', 'y', 'z', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '+', '/' };
-
+std::string map = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
 std::string toBin8(std::string s)
 {
     std::string temp = "";
@@ -59,20 +55,6 @@ int binToDec(std::string s)
     return res;
 }
 
-int find(char c)
-{
-    int index = -1;
-    for (int j = 0; j < 64; j++)
-    {
-	if (c == map[j])
-	{
-	    index = j;
-            break;
-        }
-    }
-    return index;
-}
-
 std::string encodeToBase64(std::string s)
 {
     
@@ -110,7 +92,7 @@ std::string decodeFromBase64(std::string s)
 	}
 	else
 	{
-            index = find(s[i]);
+            index = map.find(s[i]);
 	}
         if (index != -1)
         {
